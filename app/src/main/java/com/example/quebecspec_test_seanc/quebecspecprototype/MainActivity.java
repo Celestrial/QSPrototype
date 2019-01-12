@@ -11,11 +11,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        if (null != getSupportActionBar())
+            getSupportActionBar().hide();
         IndustrialInspectionConfig();
     }
 
     public void IndustrialInspectionConfig(){
-        ImageButton ib = (ImageButton) findViewById(R.id.imageButton);
+
+        ImageButton ib =findViewById(R.id.imageButton);
         ib.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

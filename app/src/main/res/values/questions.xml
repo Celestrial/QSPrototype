@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="inspection_type_array">
+        <item>5</item>// QuestionsID
+        <item>Pre-purchase</item>
+        <item>Pre-sale</item>
+        <item>Expertise</item>
+        <item>New home guarantee</item>
+    </string-array>
+    <string-array name="inspector_array">
+        <item>10</item>// QuestionsID
+        <item>Gary Bloomfield</item>// QuestionsID
+        <item>Kevin Lantaff</item>
+    </string-array>
+    <string-array name="report_writer_array">
+        <item>15</item>// QuestionsID
+        <item>Gary Bloomfield</item>
+        <item>Kevin Lantaff</item>
+    </string-array>
+    <string-array name="occupation_type_array">
+        <item>20</item>// QuestionsID
+        <item>Vacant</item>
+        <item>Inhabited</item>
+        <item>Repossessed</item>
+        <item>Succession</item>
+    </string-array>
+    <string-array name="structure_type_array">
+        <item>30</item>// QuestionsID
+        <item>Bungalow</item>
+        <item>Chalet</item>
+        <item>Commercial</item>
+        <item>Condominium</item>
+        <item>Cottage</item>
+        <item>"?Bachelor suite?"</item>
+        <item>Multifamily home</item>
+        <item>Town house</item>
+        <item>Mobile home</item>
+        <item>Prefab home</item>
+        <item>Semi-detached home</item>
+        <item>Single family home</item>
+        <item>Multilevel</item>
+        <item>Finished basement</item>
+        <item>Concrete slab</item>
+        <item>Crawl space</item>
+        <item>Built on flat land</item>
+    </string-array>
+    <string-array name="material_type_array">
+        <item>30</item>
+        <item>Concrete</item>
+        <item>Isolated concrete</item>
+        <item>Concrete block</item>
+    </string-array>
+    <plurals name="numberOfBuildingFloors">
+        <item quantity="one"> floor</item>
+        <item quantity="other"> floors</item>
+    </plurals>
+    <string-array name="floor_count_array">
+        <item>30</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="present_during_inspection_array">
+        <item>35</item>
+        <item>Client present</item>
+        <item>Client was not present</item>
+        <item>Seller was present</item>
+        <item>Seller was not present</item>
+        <item>Collaborating agent was present</item>
+        <item>Collaborating agent was present not present</item>
+        <item>Listing agent was present</item>
+        <item>Listing agent was present not present</item>
+    </string-array>
+    <integer name="oldest_construction_year">1800</integer>//id 40
+    <string-array name="construction_indicated_by">
+        <item>40</item>
+        <item>Collaborating agent</item>
+        <item>Listing agent</item>
+        <item>Client</item>
+        <item>MLS file</item>
+        <item>Seller</item>
+    </string-array>
+    <string-array name="weather_type_array">
+        <item>50</item>
+        <item>Cold</item>
+        <item>Cool</item>
+        <item>Warm</item>
+        <item>Hot</item>
+        <item>Clear</item>
+        <item>Rainy</item>
+        <item>Cloudy</item>
+        <item>Snowy</item>
+        <item>Windy</item>
+    </string-array>
+    <integer-array name="snow_accumulation_range">
+        <item>50</item>//id
+        <item>0</item>
+        <item>200</item>
+    </integer-array>
+    <integer-array name="temperature_at_inspection">
+        <item>50</item>//id
+        <item>-100</item>
+        <item>100</item>
+    </integer-array>
+    <integer-array name="inspection_start_time_array">// work hours from 7 am to 6h30 pm
+        <item>50</item>//id
+        <item>700</item>
+        <item>1830</item>
+    </integer-array>
+    <integer-array name="inspection_end_time_array">// work hours from 7 am to 6h30 pm
+        <item>50</item>//id
+        <item>730</item>
+        <item>1900</item>
+    </integer-array>
+    <string-array name="revised_by_client">
+        <item>75</item>
+        <item>revised with client</item>//Boolean
+        <!--<item>N'a pas été vérifié avec le client</item>-->
+        <item>The house was a finance recovery, so we did not get any statements about it</item>
+        <item>The house was vacant at the time of the inspection, so we did not get any statements about it</item>
+        <item>The seller\'s declaration form already with the customer </item>
+        <item> The owner / seller was missing during the inspection, so we did not get any statements from him </item>
+        <item> The seller refused to complete the form. We did not get any statements </item>
+        <item> A copy of the form was not available at the time of the inspection. It will be transmitted shortly by </item>//need space for data entry  <!-- TODO! //need space for data entry ui FOR NAMES -->
+        <item> Sale of estate, so we did not get any statement about it </item>
+    </string-array>
+    <string-array name="sellers_declaration">
+        <item>75</item>
+        <item> revised with client </item>
+        <item> Not verified with the client </item>
+        <item> The house was a finance recovery, so we did not get any statements about it </item>
+        <item> The house was vacant at the time of the inspection, so we did not get any statements about it </item>
+        <item> The seller\'s declaration form already with the customer </item>
+        <item> The owner / seller was missing during the inspection, so we did not get any statements from him </item>
+        <item> The seller refused to complete the form. We did not get any statements </item>
+        <item> A copy of the form was not available at the time of the inspection. It will be transmitted shortly by </item>
+        <item> Sale of estate, so we did not get any statement about it </item>
+    </string-array>
+    <string-array name="comments_array">
+        <item>80</item>
+        <item>This building has undergone many changes over the years. Probably originally designed as a summer cottage, it has subsequently been expanded on all sides, all sides. This resulted in a heterogeneous set of multiple additions / expansions </item>
+        <item>Most of these modifications have been crafted in a very artistic way, and many of them are inconsistent with building standards </item>
+        <item>According to the additions / enlargements, the shape of the roof (see the comments - roof and roof height) and foundations (see the comments on the basement of the service) have been modified on several occasions </item>
+        <item>In addition to the vendor owner\'s disclosures regarding multiple water infiltrations through the roof, this building is subject to several defects, some of which may render this building unsuitable for normal use (see comments on the sewer system and the sub-system). - floor of service)" </item> <!--TODO verify translation>-->
+        <item>To make this building suitable for normal use, major and urgent work is needed. We recommend consulting a licensed contractor to evaluate and correct defects. Please note that in view of the complexity and cost of such work, it is likely that an entire reconstruction will be necessary </item>
+    </string-array>
+</resources>
