@@ -39,23 +39,24 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/ResidentialButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="222dp"
-                    android:adjustViewBounds="false"
-                    android:contentDescription="@string/residential_report_selection"
-                    android:cropToPadding="true"
-                    android:scaleType="centerCrop"
-                    tools:src="@mipmap/ic_launcher_foreground"
-                    tools:srcCompat="@mipmap/ic_launcher_foreground" />
+                        android:id="@+id/ResidentialButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="222dp"
+                        android:adjustViewBounds="false"
+                        android:contentDescription="@string/residential_report_selection"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        tools:src="@mipmap/ic_launcher_foreground"
+                        tools:srcCompat="@mipmap/ic_launcher_foreground" android:src="@mipmap/ic_launcher_foreground"/>
 
                 <ImageButton
-                    android:id="@+id/IndustrialButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="221dp"
-                    android:contentDescription="@string/industrial_report_selection"
-                    android:scaleType="fitXY"
-                    tools:src="@mipmap/industrial_button_2" />
+                        android:id="@+id/IndustrialButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="221dp"
+                        android:contentDescription="@string/industrial_report_selection"
+                        android:scaleType="centerCrop"
+                        tools:src="@mipmap/industrial_button_2" android:src="@mipmap/industrial_button_2"
+                        android:cropToPadding="true"/>
 
             </LinearLayout>
         </ScrollView>
