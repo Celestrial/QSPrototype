@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void IndustrialInspectionConfig(){
 
-        ImageButton ib =findViewById(R.id.imageButton);
+        ImageButton ib =findViewById(R.id.IndustrialButton);
         ib.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

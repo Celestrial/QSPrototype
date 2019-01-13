@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">QuebecSpecPrototype</string>
+    <string name="report_inspection_image">Report Inspection Image</string>
+    <string name="industrial_report_selection">Industrial report selection</string>
+    <string name="residential_report_selection">Residential report selection</string>
+    <string name="inspections">Inspections</string>
 </resources>
